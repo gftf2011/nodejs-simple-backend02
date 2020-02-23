@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-simple-backend02",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Gabriel Ferrari Tarallo Ferraz",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^7.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
