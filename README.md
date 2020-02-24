@@ -47,9 +47,9 @@ sendo estes do tipo 'text'
 
 - `GET /users`: Rota que lista todos os usuários;
 
-- `PUT /projects/:id`: A rota deve alterar apenas o email do usuário com o `id` presente nos parâmetros da rota;
+- `PUT /users/:id`: A rota deve alterar apenas o email do usuário com o `id` presente nos parâmetros da rota;
 
-- `DELETE /projects/:id`: A rota deve deletar o usuário com o `id` presente nos parâmetros da rota;
+- `DELETE /users/:id`: A rota deve deletar o usuário com o `id` presente nos parâmetros da rota;
 
 ### Exemplo
 
