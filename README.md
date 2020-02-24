@@ -3,7 +3,7 @@
 </h1>
 <h2 align="center">Node.JS simple backend project | version: 2</h2>
 
-<h3 align="center">Este é um simples projeto para testar rotas de backend criadas com Node.JS</h3>
+<h3 align="center">Este é um projeto para testar rotas de Back-end e persistência de dados em um banco de dados relacional!</h3>
 
 ### :ferris_wheel: Para rodar a Aplicação
   
@@ -58,7 +58,7 @@ Se eu chamar a rota `POST /users` repassando `{ nome: 'Gabriel', email: 'example
 ```js
 {
   id: "1",
-  nome: "Gabrieç",
+  nome: "Gabriel",
   email: "example@gmail.com",
   password: "123456"
 }
