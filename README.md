@@ -11,9 +11,9 @@
 
 2.  Instale o YARN em [https://classic.yarnpkg.com/en/docs/install/](https://classic.yarnpkg.com/en/docs/install/)
 
-3. Instale o Docker em [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)
+#### OBS.: Caso já tenha o postgres ignore os passos 3, 4 & 5, caso não queira fazer a instalação do Docker :whale:;
 
-#### OBS.: Caso já tenha o postgres ignore os passos 4 & 5;
+3. Instale o Docker em [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)
 
 4. Abra o terminal do Docker e digite o comando abaixo:
 ```bash
