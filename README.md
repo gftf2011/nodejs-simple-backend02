@@ -13,6 +13,8 @@
 
 3. Instale o Docker em [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)
 
+#### OBS.: Caso já tenha o postgres ignore os passos 4 & 5;
+
 4. Abra o terminal do Docker e digite o comando abaixo:
 ```bash
 docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
@@ -29,6 +31,8 @@ docker start database
   -  Port: 5432
   -  Username: postgres
   -  Password: docker
+  
+  #### OBS.: Caso seja necessário altere o host de conexão dentro do index.js para 127.0.0.1 ou o IP da sua máquina Docker, caso rode docker em ambiente virtualizado!;
 
 8.  Dentro do Postbird crie um Database chamado 'users', uma tabela chamada 'user' e crie os campos "name", "email" & password
 sendo estes do tipo 'text'
